@@ -1,13 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-*{
-  font-family: 'Noto Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+* {
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-
-.box{
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  text-align: center;
+}
+.box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  gap: 5px;
+  margin-top: 2rem;
+  justify-items: center;
+  align-items: center;
+  line-height: 1.2rem;
+}
+.loader {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  size: 3rem;
+}
+form {
+  padding: 20px;
+}
+label {
+  text-shadow: -4px 4px #ef3550, -8px 8px #f48fb1, -12px 12px #7e57c2,
+    -16px 16px #2196f3, -20px 20px #26c6da, -24px 24px #43a047,
+    -28px 28px #eeff41, -32px 32px #f9a825, -36px 36px #ff5722;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  padding: 10px;
+}
+input {
+  padding: 5px 45px;
+}
+input:focus {
+  outline: none;
+}
+img {
+  width: 150px;
+  height: 190px;
+  border-radius: 10px;
 }
