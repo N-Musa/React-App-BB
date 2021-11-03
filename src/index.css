@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+  font-family: 'Noto Sans', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+ background: linear-gradient(to right, #000000, #0f9b0f);
+  
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ww_my_hero",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-router": "^5.2.1",
+    "react-router-dom": "^5.3.0"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.5",
+    "@mui/material": "^5.0.6",
+    "@mui/styled-engine-sc": "^5.0.4",
+    "@vitejs/plugin-react": "^1.0.0",
+    "styled-components": "^5.3.3",
+    "vite": "^2.6.4"
+  }
+}
